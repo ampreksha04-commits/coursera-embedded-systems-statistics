@@ -9,15 +9,16 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Implementation of statistics functions.
  *
- * <Add Extended Description Here>
+ * This file contains the main function and implementations
+ * for calculating and displaying statistics from an array of data.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
- *
+ * @author Preksha
+ * @date 3/11/26
  */
+ 
 
 
 
@@ -41,3 +42,24 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+void print_statistics(unsigned char *data, unsigned int length) {
+}
+void print_array(unsigned char *data, unsigned int length) {
+}
+unsigned char find_median(unsigned char *data, unsigned int length) {
+    return 0;
+}
+unsigned char find_mean(unsigned char *data, unsigned int length) {
+    return 0;
+}
+
+unsigned char find_maximum(unsigned char *data, unsigned int length) {
+    return 0;
+}
+
+unsigned char find_minimum(unsigned char *data, unsigned int length) {
+    return 0;
+}
+void sort_array(unsigned char *data, unsigned int length) {
+}
